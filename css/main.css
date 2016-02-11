@@ -1,0 +1,91 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    font-size: 10px;
+    font-size: 2.3vmax;
+    font-family: "Inconsolata", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.15;
+    background-color: #ffffff;
+    color: #000;
+}
+
+span:hover
+{
+    background-color: yellow;
+}
+
+#speaker 
+{
+    vertical-align: -5px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0 1em;
+}
+
+p
+{
+    margin: 1.3em 0;
+}
+
+em
+{
+    line-height: 0.9;
+}
+
+small
+{
+    font-size: 0.5em;
+}
+
+a, :visited
+{
+    color: #007aff;
+}
+
+a:hover
+{
+    background-color: #007aff;
+    color: #ffffff;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.rotate
+{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    z-index: -1;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 200px;
+    color: #EBEBEB;
+}
+
+#hidden
+{
+    display: none;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    min-height: 100%;
+}
